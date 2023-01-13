@@ -1,3 +1,4 @@
+import ButtonCard from '../ButtonCard'
 import './styles.css'
 
 function CardProduct() {
@@ -8,8 +9,7 @@ function CardProduct() {
       <div className="card-info">
         <h1>Sofá Margot II - Rosé</h1>
         <h4>R$ 4.000</h4>
-        <button typeof="clicked"> Adicionar a cesta</button>
-
+        <ButtonCard />
       </div>
     </div>
   )
